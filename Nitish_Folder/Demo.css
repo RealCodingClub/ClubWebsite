@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nitish{
+    display: flex;
+    align-items: center;
+}
+
+.item-1{
+    width: 20%;
+    height: auto;
+}
+.item-2{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    height: auto;
+    padding-right: 1%;
+}
+.item-2 li a{
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+}
+.item-3{
+    width: 10%;
+    height: auto;
+    border-left: 1px solid black;
+    padding-left: 1%;
+}
+.item-3 button{
+    font-size: 1.5em;
+    font-weight: 600;
+    background-color: #4C78E9;
+    color: white;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 18px;
+}
+.item-3 button:hover{
+    background-color: red;
+}
+.item-1 h1{
+    padding: 0 0 0 5%;
+    margin: 5px;
+}
+.item-2 li{
+    display: inline;
+    padding: 5px 12px;
+}
+.item-2 li a{
+    width: 20px;
+    height: auto;
+}
+.item-2 li a:hover{
+    color: #4C78E9;
+}
+
+
+.hero{
+    display: flex;
+}
+.child{
+    background-color: #dddddd;
+    border: 1px solid black;
+}
+.child-1{
+    width: 40%;
+}
+
+
+
